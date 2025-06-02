@@ -1,0 +1,42 @@
+# Kairosly - Church Manager
+
+**Kairosly** é uma plataforma completa para gestão de igrejas, desenvolvida com foco em flexibilidade, escalabilidade e experiência do usuário. O sistema é composto por:
+
+- 🖥️ Aplicação Web (painel administrativo e operacional)
+- 📱 Aplicativo Mobile (acesso para membros e líderes)
+- ⚙️ API RESTful (backend completo com autenticação e banco de dados)
+
+> O nome **Kairosly** vem do grego "Kairós", que significa "tempo oportuno" — representando o momento certo de organizar e fortalecer a administração ministerial com tecnologia.
+
+---
+
+## 🔧 Tecnologias Utilizadas
+
+### Comum a todos os módulos
+- **TypeScript** – Segurança e produtividade com tipagem estática
+- **Yarn** – Gerenciador de pacotes moderno
+
+### API (Backend)
+- **Node.js + Express**
+- **MongoDB + Mongoose**
+- **JWT** para autenticação
+- **Swagger** para documentação de API
+- **class-validator**, **bcryptjs**, **dotenv**
+
+### Web (Frontend)
+- **React**
+- **Vite*
+- **React Router**
+- **TailwindCSS** ou **Styled Components**
+- **Axios**, **React Hook Form**, etc.
+
+### Mobile
+- **React Native**
+- **Expo** (opcional)
+- **React Navigation**
+- **AsyncStorage**, **Axios**, **Context API** ou **Zustand/MobX/Redux**
+
+---
+
+## 📁 Estrutura do Projeto
+

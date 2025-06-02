@@ -1,0 +1,109 @@
+# 🌍 Geral (comum a todos os projetos Node/TypeScript/JS)
+node_modules/
+dist/
+build/
+.env
+.env.*.local
+.env.local
+*.log
+*.tsbuildinfo
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# IDEs e editores
+.vscode/
+.idea/
+*.swp
+*.swo
+*.DS_Store
+Thumbs.db
+
+# SOs e arquivos de sistema
+*.bak
+*.tmp
+*.temp
+*.log
+*.pid
+
+# 📦 Yarn PnP
+.pnp.*
+.yarn/cache
+.yarn/unplugged
+.yarn/build-state.yml
+.yarn/install-state.gz
+
+# 🔧 API (Node.js + TypeScript)
+church-api/dist/
+church-api/coverage/
+church-api/.env
+church-api/.env.*.local
+church-api/.tsbuildinfo
+
+# 🌐 Web (React + Vite)
+web/.env
+web/.env.*.local
+web/dist/
+web/coverage/
+
+# 📱 Mobile (React Native)
+mobile/.env
+mobile/.env.*.local
+mobile/android/.gradle/
+mobile/android/app/build/
+mobile/android/build/
+mobile/ios/Pods/
+mobile/ios/Podfile.lock
+mobile/ios/build/
+mobile/ios/DerivedData/
+mobile/ios/*.xcworkspace
+mobile/ios/*.xcodeproj/project.xcworkspace/
+mobile/ios/*.xcodeproj/xcuserdata/
+mobile/ios/*.xcuserstate
+mobile/ios/*.pbxuser
+mobile/ios/.bundle/
+mobile/ios/*.mode1v3
+mobile/ios/*.mode2v3
+mobile/ios/*.perspectivev3
+mobile/ios/*.xcsettings
+
+# React Native geral
+*.keystore
+*.jks
+*.p12
+*.key
+*.mobileprovision
+*.cert
+*.pem
+.expo/
+.expo-shared/
+*.expo
+*.tgz
+*.tar.gz
+
+# Watchman (usado no RN)
+.watchmanconfig
+
+# Fastlane (iOS/Android CI/CD)
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/**/*.png
+fastlane/test_output
+
+# Xcode
+*.xcuserstate
+*.xcscmblueprint
+
+# Metro bundler cache
+metro-cache/
+.cache/
+
+# Misc
+*.apk
+*.aab
+*.ipa
+
+# 💅 Eslint / Prettier / Cache
+eslintcache
+.prettierignore
+.prettiercache
